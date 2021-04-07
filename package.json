@@ -1,21 +1,43 @@
 {
   "name": "rpx187",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.1.0",
+  "private": false,
+  "keywords": [
+    "reactjs,v17",
+    "api concurrent mode",
+    "suspence",
+    "render function",
+    "useTransition",
+    "Hooks",
+    "Arrow function",
+    "reacr-dom",
+    "update react",
+    "functional component",
+    "rest api",
+    "useEffect"
+  ],
+  "author": "Nouha Mbarek",
+  "license": "ISC",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "react": "0.0.0-experimental-f42431abe",
+    "react-dom": "0.0.0-experimental-f42431abe",
     "web-vitals": "^1.0.1"
   },
+  "devDependencies": {
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.1",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open --hot"
   },
   "eslintConfig": {
     "extends": [
